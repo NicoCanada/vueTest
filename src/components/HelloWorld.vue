@@ -28,10 +28,22 @@
       <p>{{ callFunctionResult }}</p>
     </template>
 
+    <template>
+      <h2>调用云函数</h2>
+      <p>
+        点击
+        <a href="javascript:;" @click="loginFunction">调用 登录() 云函数</a>
+      </p>
+      <p>
+        <b>云函数执行结果</b>
+      </p>
+      <p>{{ callFunctionResult }}</p>
+    </template>
+
     <h2>本示例 Github 源码地址：</h2>
     <a
-      href="https://github.com/TencentCloudBase/cloudbase-templates/tree/master/vue"
-    >https://github.com/TencentCloudBase/cloudbase-templates/tree/master/vue</a>
+      href="https://github.com/NicoCanada/vueTest/tree/main/"
+    >https://github.com/NicoCanada/vueTest/tree/main/</a>
     <h2>
       开发部署工具: CloudBase Framework
       <a href="https://github.com/TencentCloudBase/cloudbase-framework">
